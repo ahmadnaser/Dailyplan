@@ -1,0 +1,59 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+#canvas{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid silver;
+}
+#header{
+	font-size: 20px;
+	padding: 20px;
+}
+#menu{
+	background-color: #0066ff;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li.utama{
+	display: inline-table;
+}
+#menu ul li:hover{
+	background-color: #0033cc;
+}
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 10px;
+	color: #fff;
+}
+.utama ul{
+	display: none;
+	position: absolute;
+	z-index: 2;
+}
+.utama:hover ul{
+	display: block;
+}
+.utama ul li{
+	display: block;
+	background-color: #6cf;
+	width: 140px;
+}
+.right{
+	float: right;
+}
+#isi{
+	min-height: 400px;
+	padding: 20px;
+}
+#footer{
+	text-align: center;
+	padding: 20px;
+	background-color: #ccc;
+}
